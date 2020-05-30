@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleKonwWebDevelope", "SimpleKonwWebDevelope.csproj", "{0F90830C-5828-489F-9D9A-EEF7870E83A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleKonwWebDevelope", "SimpleKonwWebDevelope.csproj", "{0F90830C-5828-489F-9D9A-EEF7870E83A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDBContext", "..\SimpleDBContext\SimpleDBContext.csproj", "{7980A03A-B2AB-4333-B43E-D7D30C560B7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0F90830C-5828-489F-9D9A-EEF7870E83A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F90830C-5828-489F-9D9A-EEF7870E83A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F90830C-5828-489F-9D9A-EEF7870E83A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7980A03A-B2AB-4333-B43E-D7D30C560B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7980A03A-B2AB-4333-B43E-D7D30C560B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7980A03A-B2AB-4333-B43E-D7D30C560B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7980A03A-B2AB-4333-B43E-D7D30C560B7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
