@@ -34,8 +34,15 @@ namespace SimpleKonwWebDevelope
             //https://stackoverflow.com/questions/58266344/net-core-3-mvc-using-usemvcwithdefaultroute-to-configure-mvc-is-not-suppo
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
-            var connection = _configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<IdentityDBContext>(config => config.UseSqlServer(connection));
+            //第一种实现的方式
+            //var connection = _configuration.GetConnectionString("DefaultConnection");
+            //services.AddDbContext<IdentityDBContext>(config => config.UseSqlServer(connection));
+            //对应的IdentityDBContext 写法上有变化
+
+            //第二种实现的方式
+            //IdentityDBContext 重写 OnConfiguring 
+            services.AddEntityFrameworkSqlServer().AddDbContext<IdentityDBContext>();
+
 
             //AddIdentity 需要传递两个范型参数
             //UserStore 创建用户和验证其密码
@@ -80,7 +87,7 @@ namespace SimpleKonwWebDevelope
 
         public void ConfigureRoute(IRouteBuilder routeBuilder)
         {
-            routeBuilder.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");
+            routeBuilder.MapRoute("Default", "{controller=Home}/{action=EmployeeView}/{id?}");
         }
     }
 }

@@ -1,14 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using SimpleDBContext;
 using SimpleDBContext.Models;
 using SimpleKonwWebDevelope.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace SimpleKonwWebDevelope.Controllers
 {

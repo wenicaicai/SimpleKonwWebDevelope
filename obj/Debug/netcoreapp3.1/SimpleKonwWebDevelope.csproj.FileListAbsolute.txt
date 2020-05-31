@@ -148,3 +148,5 @@ C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\Microsoft
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs

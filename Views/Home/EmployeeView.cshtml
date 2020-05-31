@@ -1,6 +1,6 @@
 ﻿@model SimpleKonwWebDevelope.Models.HomePageViewModel
 @{
-    ViewBag.Title = "Home控制器下的Index";
+    ViewBag.Title = "职员列表";
 }
 <h1>Welcome</h1>
 <div>消息来自Controller的视图文件</div>
@@ -32,3 +32,5 @@
     }
 </table>
 <p><a asp-action="EmployeeCreate">添加员工</a></p>
+<br />
+<p><a asp-controller="Account" asp-action="SignUp">注册新用户</a></p>
