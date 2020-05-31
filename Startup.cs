@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -14,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SimpleDBContext;
 using SimpleDBContext.Models;
+using SimpleKonwWebDevelope.Filter;
 
 namespace SimpleKonwWebDevelope
 {
@@ -33,6 +35,18 @@ namespace SimpleKonwWebDevelope
         {
             //https://stackoverflow.com/questions/58266344/net-core-3-mvc-using-usemvcwithdefaultroute-to-configure-mvc-is-not-suppo
             services.AddMvc(option => option.EnableEndpointRouting = false);
+
+            /**
+             * 过滤器
+             * 1.异常过滤器
+             * 第一种注册的方式
+             * 全局注册
+             * 
+             * **/
+            services.AddControllersWithViews(options =>
+            {
+                options.Filters.Add(typeof(CustomExceptionFilterAttribute));
+            });
 
             //第一种实现的方式
             //var connection = _configuration.GetConnectionString("DefaultConnection");

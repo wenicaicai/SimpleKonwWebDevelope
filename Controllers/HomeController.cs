@@ -63,6 +63,9 @@ namespace SimpleKonwWebDevelope.Controllers
         public ViewResult EmployeeView()
         {
             var model = new HomePageViewModel();
+            int i = 0;
+            int j = 9;
+            int k = j / i;
             model.Employees = _dbContext.Employees.ToList();
             return View(model);
         }
