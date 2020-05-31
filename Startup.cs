@@ -72,7 +72,11 @@ namespace SimpleKonwWebDevelope
 
             //插入 Identity 中间件的位置非常重要，如果在管道中插入中间件的时间太晚，它将永远没有机会处理请求
             //https://www.cnblogs.com/lonelyxmas/p/9724398.html
+            //认证
             app.UseAuthentication();
+            //Authentication`认证`-你是泛睿企服员工
+            //Claims
+            //Authorization`授权`-你不是财务人员
 
             app.UseMvc(ConfigureRoute);
 

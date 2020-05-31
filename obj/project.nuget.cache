@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XZUZlHz3tXpD/VOjybYnpXmpUbRuWvhf1lkjO2mC6EOc9Y7YsBeEQQ8jiuNj7Y7TM3KWut7PuwmLJxTkX5ivCw==",
+  "dgSpecHash": "vMlNPqNK591P6+xjL4Kuk/sR7eqbwO53flkfgwSeGDmbMLpQZT1xs9KkM9nR3FXfimUFSemhY6ZpNDpVlCEbog==",
   "success": true,
   "projectFilePath": "C:\\.netCore\\ClearProject\\SimpleKonwWebDevelope\\SimpleKonwWebDevelope.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.4\\microsoft.extensions.identity.stores.3.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.logging.debug\\3.1.4\\microsoft.extensions.logging.debug.3.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
