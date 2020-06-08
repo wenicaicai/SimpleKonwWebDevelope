@@ -2736,6 +2736,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "RuleOfNumber/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RuleOfNumber.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RuleOfNumber.dll": {}
+        }
+      },
       "SimpleDBContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -8652,6 +8662,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "RuleOfNumber/1.0.0": {
+      "type": "project",
+      "path": "../RuleOfNumber/RuleOfNumber.csproj",
+      "msbuildProject": "../RuleOfNumber/RuleOfNumber.csproj"
+    },
     "SimpleDBContext/1.0.0": {
       "type": "project",
       "path": "../SimpleDBContext/SimpleDBContext.csproj",
@@ -8663,6 +8678,7 @@
       "Microsoft.AspNetCore.Diagnostics >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3",
+      "RuleOfNumber >= 1.0.0",
       "SimpleDBContext >= 1.0.0"
     ]
   },
@@ -8696,6 +8712,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\.netCore\\ClearProject\\RuleOfNumber\\RuleOfNumber.csproj": {
+              "projectPath": "C:\\.netCore\\ClearProject\\RuleOfNumber\\RuleOfNumber.csproj"
+            },
             "C:\\.netCore\\ClearProject\\SimpleDBContext\\SimpleDBContext.csproj": {
               "projectPath": "C:\\.netCore\\ClearProject\\SimpleDBContext\\SimpleDBContext.csproj"
             }

@@ -152,3 +152,6 @@ C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\RuleOfNumber.dll
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\RuleOfNumber.pdb
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Home\SimpleSelect.cshtml.g.cs

@@ -1,0 +1,24 @@
+﻿@model SimpleKonwWebDevelope.Models.TestMode<int>
+@{
+    ViewBag.Title = "简单排序算法";
+}
+<div>
+    <table>
+        <tr>
+            @foreach (var valData in Model.BeforeValModel)
+            {
+                <td>
+                    @valData
+                </td>
+            }
+        </tr>
+        <tr>
+            @foreach (var valData in Model.ValModel)
+            {
+                <td>
+                    @valData
+                </td>
+            }
+        </tr>
+    </table>
+</div>

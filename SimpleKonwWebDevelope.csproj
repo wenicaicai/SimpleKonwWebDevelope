@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RuleOfNumber\RuleOfNumber.csproj" />
     <ProjectReference Include="..\SimpleDBContext\SimpleDBContext.csproj" />
   </ItemGroup>
 

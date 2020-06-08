@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using RuleOfNumber;
 using SimpleDBContext;
 using SimpleDBContext.Models;
 using SimpleKonwWebDevelope.Models;
@@ -67,6 +69,19 @@ namespace SimpleKonwWebDevelope.Controllers
             int j = 9;
             int k = j / i;
             model.Employees = _dbContext.Employees.ToList();
+            return View(model);
+        }
+
+        [AllowAnonymous]
+        public ViewResult SimpleSelect()
+        {
+            var model = new TestMode<int>();
+            var intList = new List<int> { 1, 85, 97, 24, 5, 6, 9, 48, 2, 6 };
+            var intListJson = JsonConvert.SerializeObject(intList);
+            var intListI = JsonConvert.DeserializeObject<IEnumerable<int>>(intListJson);
+            model.BeforeValModel = intListI;
+            var sortNumber = SimpleSelectSort.SelectSort(intList);
+            model.ValModel = sortNumber;
             return View(model);
         }
 

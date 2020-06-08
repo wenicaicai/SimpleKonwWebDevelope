@@ -84,7 +84,7 @@ namespace SimpleKonwWebDevelope.Controllers
                     if (!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
                         return Redirect(model.ReturnUrl);
                     else
-                        return RedirectToAction("EmployeeView", "Home");
+                        return RedirectToAction("SimpleSelect", "Home");
                 }
             }
             ModelState.AddModelError("", "Invalid login attempt..");
