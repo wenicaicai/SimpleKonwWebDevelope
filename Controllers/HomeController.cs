@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MultiThreading;
 using Newtonsoft.Json;
 using RuleOfNumber;
 using SimpleDBContext;
@@ -8,6 +9,7 @@ using SimpleKonwWebDevelope.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SimpleKonwWebDevelope.Controllers
@@ -82,6 +84,24 @@ namespace SimpleKonwWebDevelope.Controllers
             model.BeforeValModel = intListI;
             var sortNumber = SimpleSelectSort.SelectSort(intList);
             model.ValModel = sortNumber;
+
+            Foo foo = new Foo();
+            Thread tI = new Thread(foo.First);
+            Thread tII = new Thread(foo.Second);
+            Thread tIII = new Thread(foo.Third);
+
+            for (var i=0;i<10;i++)
+            {
+                Console.WriteLine("X");
+            }
+            Thread tIV = new Thread(foo.WriteY);
+            //Thread tVI = new Thread(foo.Fourth);
+            //tI.Join();
+            //tII.Join();
+            //tIII.Join();
+
+
+
             return View(model);
         }
 

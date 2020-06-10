@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InheritClib\InheritClib.csproj" />
+    <ProjectReference Include="..\MultiThreading\MultiThreading.csproj" />
     <ProjectReference Include="..\RuleOfNumber\RuleOfNumber.csproj" />
     <ProjectReference Include="..\SimpleDBContext\SimpleDBContext.csproj" />
   </ItemGroup>
