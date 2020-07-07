@@ -75,7 +75,8 @@ namespace SimpleKonwWebDevelope.Controllers
         }
 
         [AllowAnonymous]
-        public ViewResult SimpleSelect()
+        [HttpGet]
+        public ViewResult SimpleSelect(string name)
         {
             var model = new TestMode<int>();
             var intList = new List<int> { 1, 85, 97, 24, 5, 6, 9, 48, 2, 6 };
@@ -99,6 +100,7 @@ namespace SimpleKonwWebDevelope.Controllers
             //tI.Join();
             //tII.Join();
             //tIII.Join();
+            ViewBag.Name = name;
 
 
 

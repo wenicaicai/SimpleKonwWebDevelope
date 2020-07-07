@@ -135,8 +135,6 @@ C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ru\Micros
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.csproj.CoreCompileInputs.cache
-C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.MvcApplicationPartsAssemblyInfo.cache
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeDetail.cshtml.g.cs
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -159,3 +157,7 @@ C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\MultiThre
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\MultiThreading.pdb
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\InheritClib.dll
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\InheritClib.pdb
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.csproj.CoreCompileInputs.cache
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.MvcApplicationPartsAssemblyInfo.cache
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCalendar.dll
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCalendar.pdb

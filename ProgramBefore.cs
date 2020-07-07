@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace SimpleKonwWebDevelope
 {
-    public class Program
+    public class ProgramBefore
     {
         public static void Main(string[] args)
         {
@@ -27,6 +27,11 @@ namespace SimpleKonwWebDevelope
                      * 
                      */
                     webBuilder.UseStartup<Startup>();//配置管道、中间件
+                    //Kestrel 的默认端口是http 5000 、http5001
+                    webBuilder.ConfigureKestrel(options=>
+                    {
+                        options.ListenAnyIP(5180);
+                    });
                 });
     }
 }

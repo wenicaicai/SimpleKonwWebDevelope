@@ -28,7 +28,7 @@ namespace SimpleKonwWebDevelope
         public void ConfigureServices(IServiceCollection services)
         {
             //https://stackoverflow.com/questions/58266344/net-core-3-mvc-using-usemvcwithdefaultroute-to-configure-mvc-is-not-suppo
-            services.AddMvc(option => option.EnableEndpointRouting = false);
+            //services.AddMvc(option => option.EnableEndpointRouting = false);
 
             /**
              * 过滤器
@@ -86,7 +86,17 @@ namespace SimpleKonwWebDevelope
             //Claims
             //Authorization`授权`-你不是财务人员
 
-            app.UseMvc(ConfigureRoute);
+            //app.UseMvc(ConfigureRoute);
+
+            #region ApiController
+            app.UseRouting();
+            app.UseEndpoints(endpoints=> {
+                endpoints.MapControllerRoute(
+                    name:"default",
+                    pattern:"{controller=AnnonationRequest}/{action=Get}"
+                    );
+            });
+            #endregion
 
             var msg = _configuration["msg"];
             app.Run(async context =>
@@ -95,6 +105,7 @@ namespace SimpleKonwWebDevelope
                 context.Response.ContentType = "text/plain;charset=utf-8";
                 await context.Response.WriteAsync($"<h1>:-)</h1>{msg}");
             });
+            //app.Run();
         }
 
         public void ConfigureRoute(IRouteBuilder routeBuilder)
