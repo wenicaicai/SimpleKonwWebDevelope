@@ -21,7 +21,7 @@ namespace SimpleKonwWebDevelope.Controllers
         [HttpGet("DateChineseName")]
         public IActionResult DateChineseName()
         {
-            Calendar calendar = new Calendar();
+            ChineseCalendar.ChineseCalendar calendar = new ChineseCalendar.ChineseCalendar();
             var lunarDateName = calendar.GetLunarDateName();
             return Ok(lunarDateName);
         }

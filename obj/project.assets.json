@@ -2736,14 +2736,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ChineseCalendar/1.0.0": {
+      "ChineseCulture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/ChineseCalendar.dll": {}
+          "bin/placeholder/ChineseCulture.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ChineseCalendar.dll": {}
+          "bin/placeholder/ChineseCulture.dll": {}
         }
       },
       "InheritClib/1.0.0": {
@@ -8692,10 +8692,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ChineseCalendar/1.0.0": {
+    "ChineseCulture/1.0.0": {
       "type": "project",
-      "path": "../ChineseCalendar/ChineseCalendar.csproj",
-      "msbuildProject": "../ChineseCalendar/ChineseCalendar.csproj"
+      "path": "../ChineseCalendar/ChineseCulture.csproj",
+      "msbuildProject": "../ChineseCalendar/ChineseCulture.csproj"
     },
     "InheritClib/1.0.0": {
       "type": "project",
@@ -8720,7 +8720,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ChineseCalendar >= 1.0.0",
+      "ChineseCulture >= 1.0.0",
       "InheritClib >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.4",
@@ -8760,8 +8760,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj": {
-              "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj"
+            "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj": {
+              "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj"
             },
             "C:\\.netCore\\ClearProject\\InheritClib\\InheritClib.csproj": {
               "projectPath": "C:\\.netCore\\ClearProject\\InheritClib\\InheritClib.csproj"

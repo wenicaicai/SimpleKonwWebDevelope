@@ -4,12 +4,12 @@
     "C:\\.netCore\\ClearProject\\SimpleKonwWebDevelope\\SimpleKonwWebDevelope.csproj": {}
   },
   "projects": {
-    "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj": {
+    "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj",
-        "projectName": "ChineseCalendar",
-        "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj",
+        "projectUniqueName": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj",
+        "projectName": "ChineseCulture",
+        "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
         "outputPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\obj\\",
         "projectStyle": "PackageReference",
@@ -365,8 +365,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj": {
-                "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCalendar.csproj"
+              "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj": {
+                "projectPath": "C:\\.netCore\\ClearProject\\ChineseCalendar\\ChineseCulture.csproj"
               },
               "C:\\.netCore\\ClearProject\\InheritClib\\InheritClib.csproj": {
                 "projectPath": "C:\\.netCore\\ClearProject\\InheritClib\\InheritClib.csproj"

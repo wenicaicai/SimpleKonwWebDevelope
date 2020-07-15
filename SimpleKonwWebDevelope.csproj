@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChineseCalendar\ChineseCalendar.csproj" />
+    <ProjectReference Include="..\ChineseCalendar\ChineseCulture.csproj" />
     <ProjectReference Include="..\InheritClib\InheritClib.csproj" />
     <ProjectReference Include="..\MultiThreading\MultiThreading.csproj" />
     <ProjectReference Include="..\RuleOfNumber\RuleOfNumber.csproj" />
