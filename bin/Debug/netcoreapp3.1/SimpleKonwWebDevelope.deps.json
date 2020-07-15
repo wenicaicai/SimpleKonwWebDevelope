@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "SimpleKonwWebDevelope/1.0.0": {
         "dependencies": {
-          "ChineseCalendar": "1.0.0",
+          "ChineseCulture": "1.0.0",
           "InheritClib": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
@@ -2263,12 +2263,12 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "ChineseCalendar/1.0.0": {
+      "ChineseCulture/1.0.0": {
         "runtime": {
-          "ChineseCalendar.dll": {}
+          "ChineseCulture.dll": {}
         },
         "compile": {
-          "ChineseCalendar.dll": {}
+          "ChineseCulture.dll": {}
         }
       },
       "InheritClib/1.0.0": {
@@ -5044,7 +5044,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "ChineseCalendar/1.0.0": {
+    "ChineseCulture/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

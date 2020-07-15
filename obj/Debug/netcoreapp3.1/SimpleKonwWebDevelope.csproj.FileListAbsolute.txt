@@ -159,5 +159,5 @@ C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\InheritCl
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\InheritClib.pdb
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.csproj.CoreCompileInputs.cache
 C:\.netCore\ClearProject\SimpleKonwWebDevelope\obj\Debug\netcoreapp3.1\SimpleKonwWebDevelope.MvcApplicationPartsAssemblyInfo.cache
-C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCalendar.dll
-C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCalendar.pdb
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCulture.dll
+C:\.netCore\ClearProject\SimpleKonwWebDevelope\bin\Debug\netcoreapp3.1\ChineseCulture.pdb
